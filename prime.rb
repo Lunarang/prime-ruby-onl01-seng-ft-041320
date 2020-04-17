@@ -2,4 +2,10 @@
 
 def prime?(x)
   
+  if x > 1 
+    
+  else
+    FALSE
+  end
+  
 end
