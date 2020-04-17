@@ -12,5 +12,5 @@ def prime?(x)
   else
     return TRUE
   end
-  
+  TRUE
 end
