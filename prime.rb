@@ -7,7 +7,8 @@ def prime?(x)
     FALSE
   when x > 1
     all_numbers.all? do |n| 
-      x / n 
+      result = x / n
+      result == 
     end
     #if the resulting number is whole - not prime
     #if the resulting number is not whole - prime
