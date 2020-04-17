@@ -1,13 +1,12 @@
 #A prime number is a natural number greater than 1 that cannot be formed by multiplying two smaller natural numbers. 
 
 def prime?(x)
+  all_numbers = [2..(x-1)]
   
-  when x > 1 
-    
-  when x < 1 
+  if x < 1
     FALSE
   else
-    FALSE
+    all_numbers.each { |n| x / n }
   end
   
 end
