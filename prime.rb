@@ -5,9 +5,8 @@
 
 def prime?(x)
   all_numbers = [2..(x-1)]
-  
-  if x > 1
-    all_numbers.all? do |n| 
+    
+  all_numbers.each do |n| 
       
       result = x / n
       if result == all_numbers
