@@ -8,10 +8,10 @@ def prime?(x)
   
   if x > 1
     all_numbers.each { |n| return FALSE if (x % n) == 0 }
-  else
+  when x < 1 
     FALSE
+  else
+    TRUE
   end
-  
-  TRUE
   
 end
