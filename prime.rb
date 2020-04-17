@@ -4,9 +4,8 @@
     
 
 def prime?(x)
-  i = 2 
   
-  if  x > i
+  if  x > 2
     (2..(x-1)).each { |n| return FALSE if (x % n) == 0 }
   elsif x < 2
     return FALSE
