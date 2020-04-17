@@ -4,10 +4,9 @@
     
 
 def prime?(x)
-  all_numbers = []
-  all_numbers << (2..(x-1))
+
   if x > 1
-    all_numbers.each { |n| return FALSE if (x % n) == 0 }
+    (2..(x-1)).each { |n| return FALSE if (x % n) == 0 }
   elsif x < 2
     FALSE
   else
