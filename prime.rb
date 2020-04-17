@@ -5,8 +5,12 @@
 
 def prime?(x)
   all_numbers = [2..(x-1)]
-    
-  all_numbers.each { |n| return FALSE if (x % n) == 0 }
+  
+  if x > 1
+    all_numbers.each { |n| return FALSE if (x % n) == 0 }
+  else
+    FALSE
+  end
   
   TRUE
   
