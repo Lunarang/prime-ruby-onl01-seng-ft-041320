@@ -6,7 +6,7 @@
 def prime?(x)
   i = 2 
   
-  if  x > 2
+  if  x > i
     (2..(x-1)).each { |n| return FALSE if (x % n) == 0 }
   elsif x < 2
     return FALSE
