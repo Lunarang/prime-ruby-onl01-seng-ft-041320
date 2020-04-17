@@ -8,7 +8,7 @@ def prime?(x)
   
   if x > 1
     all_numbers.each { |n| return FALSE if (x % n) == 0 }
-  elsif x < 1 
+  elsif x < 2
     FALSE
   else
     TRUE
