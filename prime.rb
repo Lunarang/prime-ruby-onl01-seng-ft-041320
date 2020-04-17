@@ -3,12 +3,16 @@
 def prime?(x)
   all_numbers = [2..(x-1)]
   
-  if x < 1
+  when x < 1
     FALSE
-  else
-    all_numbers.all? { |n| x / n }
+  when x > 1
+    all_numbers.all? do |n| 
+      x / n 
+    end
     #if the resulting number is whole - not prime
     #if the resulting number is not whole - prime
+  else
+    TRUE
   end
   
 end
