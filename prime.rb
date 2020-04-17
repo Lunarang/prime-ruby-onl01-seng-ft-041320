@@ -7,6 +7,8 @@ def prime?(x)
     FALSE
   else
     all_numbers.each { |n| x / n }
+    #if the resulting number is whole - not prime
+    #if the resulting number is not whole - prime
   end
   
 end
