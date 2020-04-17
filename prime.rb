@@ -2,8 +2,10 @@
 
 def prime?(x)
   
-  if x > 1 
+  when x > 1 
     
+  when x < 1 
+    FALSE
   else
     FALSE
   end
