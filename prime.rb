@@ -6,9 +6,9 @@
 def prime?(x)
   all_numbers = [2..(x-1)]
   
-  when x > 1
+  if x > 1
     all_numbers.each { |n| return FALSE if (x % n) == 0 }
-  when x < 1 
+  elsif x < 1 
     FALSE
   else
     TRUE
