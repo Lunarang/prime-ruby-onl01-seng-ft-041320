@@ -6,8 +6,8 @@
 def prime?(x)
   all_numbers = [2..(x-1)]
     
-  all_numbers.each {do} |n| 
-    return false if x % n == 0
-    end
+  all_numbers.each { |n| return FALSE if (x % n) == 0 }
+  
+  TRUE
   
 end
